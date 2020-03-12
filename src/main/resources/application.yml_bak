@@ -1,0 +1,14 @@
+
+server:
+  port: 8600
+    #  configuration:
+    #    call-setters-on-nulls: true
+    #  type-aliases-package: com.js.ctc.customerserversupport.model
+    #mybatis   打印SQL语句
+    #logging:
+    #level:
+  #com.js.ctc.customerserversupport.dao.*: trace
+  #file: log/css.log
+  #path: /Users/lly/idea/customer-server-support/log
+logging:
+  config: classpath:logback-spring.xml
